@@ -5,7 +5,8 @@ name = "pypi"
 
 [packages]
 streamlit = "*"
-snowflake-connector-python = "*"
+snowflake-connector-python = {extras = ["pandas"], version = "*"}
+pyarrow = "<8.1.0>=8.0.0"
 
 [dev-packages]
 
